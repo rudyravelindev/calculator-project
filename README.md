@@ -1,10 +1,3 @@
-# calculator-project
-
-
-Here’s a concise and structured version of the steps you can include in your `README.md` file on GitHub:
-
----
-
 ## Calculator Project
 
 This project is a simple calculator built using HTML, CSS, and JavaScript. It performs basic arithmetic operations and has an interactive user interface.
