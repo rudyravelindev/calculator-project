@@ -54,10 +54,6 @@ This project is a simple calculator built using HTML, CSS, and JavaScript. It pe
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/your-username/calculator-project.git
+   git clone git@github.com:rudyravelindev/calculator-project.git
    ```
-2. Open the `index.html` file in your browser.
-
----
-
-This structure provides a clear outline of the project steps and the features your calculator supports. You can customize the repository link and any other details specific to your project. Let me know if you need help with that!
+2. Open the `index.html` file in your favorite browser.
