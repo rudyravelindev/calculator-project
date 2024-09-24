@@ -53,12 +53,11 @@ function handleNumber(value) {
 function handleOperator(value) {
     if (currentInput === '') return; // Don't handle operator if no input
 
-    if (previousInput === '') {
-        previousInput = currentInput;
-    } else {
+    if (previousInput !== '' && operator !== '') {
         calculateResult(); // Perform calculation if operator is pressed after an input
     }
 
+    previousInput = currentInput;
     operator = value;
     currentInput = ''; // Clear the current input for the next number
 }
@@ -84,6 +83,8 @@ function calculateResult() {
         case '/':
             result = num2 === 0 ? 'Error' : num1 / num2; // Prevent division by zero
             break;
+        default:
+            return; // If no operator is set, do nothing
     }
 
     updateDisplay(result);
